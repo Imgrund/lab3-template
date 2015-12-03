@@ -1,0 +1,71 @@
+
+<form id="291182002">
+<property name="name" value="requestDisallowed-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="1" name="person_age" type="InputTextInteger" id="466533680">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;age (person)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_person/age"/>
+<property name="outputBinding" value="person_/age"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="person_balance" type="InputTextDouble" id="1346619424">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;balance (person)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_person/balance"/>
+<property name="outputBinding" value="person_/balance"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="3" name="person_dispo" type="CheckBox" id="409490452">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dispo (person)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_person/dispo"/>
+<property name="outputBinding" value="person_/dispo"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="person_name" type="InputText" id="1197578463">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (person)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_person/name"/>
+<property name="outputBinding" value="person_/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="request_amount" type="InputTextDouble" id="910312900">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;amount (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_request/amount"/>
+<property name="outputBinding" value="request_/amount"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="6" name="request_fee" type="InputTextDouble" id="1861798047">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fee (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="_request/fee"/>
+<property name="outputBinding" value="request_/fee"/>
+<property name="fieldClass" value="java.lang.Double"/>
+</field>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1361478936">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;dequot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;enquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;esquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;frquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;jaquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;ptquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;quot;zhquot;,quot;&lt;p&gt;Request declined for:&lt;/p&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<dataHolder inputId="_person" name="#E9E371" type="dataModelerEntry" outId="person_" value="com.rtpa.lab3.Person" id="person"/>
+<dataHolder inputId="_request" name="#FF54A7" type="dataModelerEntry" outId="request_" value="com.rtpa.lab3.Request" id="request"/>
+</form>

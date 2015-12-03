@@ -1,0 +1,22 @@
+package com.rtpa.lab3;
+
+import com.rtpa.lab3.Person;
+import com.rtpa.lab3.Request;
+
+
+rule "Request below zero" 
+ruleflow-group "simple-rule"
+no-loop         //statement is essential for funcionality of (each) rule!!!
+when
+	$r : Request(amount < 0)   
+then
+    modify ($r) {
+        setValid(false);
+    }
+end
+
+
+//Define your rules here!!!
+//Variables like amount, age or balance can be found within the data objects (Person.java, Request.java).
+//Take in mind that you just have to edit this file. Any changes of other files are not necessary!
+//Use the "validate" Button in the top right corner! ;-)
